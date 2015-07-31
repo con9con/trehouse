@@ -1,11 +1,8 @@
+/* * * * * * * * * * *
+GENERAL
+* * * * * * * * * * */
 body {
-  background: #fff;
-  color: #999;
-}
-
-a {
-  text-decoration: none;
-  color: #6ab47b;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #wrapper {
@@ -14,9 +11,62 @@ a {
   padding: 0 5%;
 }
 
+a {
+  text-decoration: none;
+}
+
+
+
+/* * * * * * * * * * *
+HEADING
+* * * * * * * * * * */
 #logo {
   text-align: center;
   margin: 0;
+}
+
+h1 {
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 1em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+/* * * * * * * * * * *
+NAVIGATION
+* * * * * * * * * * */
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+
+
+/* * * * * * * * * * *
+FOOTER
+* * * * * * * * * * */
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+
+/* * * * * * * * * * *
+COLORS
+* * * * * * * * * * */
+body {
+  background: #fff;
+  color: #999;
 }
 
 header {
@@ -26,6 +76,10 @@ header {
 
 h1, h2 {
   color: #fff;
+}
+
+a {
+  color: #6ab47b;
 }
 
 nav {
